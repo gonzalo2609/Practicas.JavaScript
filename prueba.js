@@ -3,6 +3,7 @@ let nombre=prompt('INGRESE SU NOMBRE:');
 let edad=prompt("INGRESE SU EDAD");
 if (edad <=17){
  alert("LO SIENTO NO PUEDES ACCEDER A LA PAGINA");
+
 }
 console.log(nombre);
 console.log(edad);
@@ -12,3 +13,8 @@ let valorCalificacion=prompt("INGRESE SU CALIFICACIÓN");
 alert("MUCHAS GRACIAS POR TU OPINIÓN.")}
 if (opinion=="no"){
 alert("Muchas Gracias por tu visita.");} 
+
+
+for(let i=0 < 10; i++;) {
+    alert (i);
+}

@@ -7,3 +7,6 @@ console.log(nombreIngresado);
 alert("El nombre ingresado es:" +nombreIngresado);
 
 console.log(nombreIngresado);
+
+
+
