@@ -38,7 +38,7 @@ for (let index = 0; index < cantidad; index++) {
 
 }
 
-let lados = prompt('INGRESAR CANTIDAD DE LADOS');3
+let lados = prompt('INGRESAR CANTIDAD DE LADOS');
 for (let index = 0; index < lados; index++) {
     if (index > 3) {
         break;
