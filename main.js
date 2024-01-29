@@ -1,16 +1,20 @@
- /*  EJEMPLO 1
+                             //  EJEMPLO 1
  
-     let nombre= "homero";
-     let apellido="simpson";
+
+     let nombreHomero= "homero";
+     let apellidoSimpson="simpson";
      let edad= 45;
 
-     alert(nombre);
-     alert(apellido);
-     alert(edad);  */
+     alert(nombreHomero);
+     alert(apellidoSimpson);
+     alert(edad);  
 
 
 
-/*  EJEMPLO 2 
+
+
+                            // EJEMPLO 2 
+
 
       const CIUDAD1= "BUENOS AIRES";
       const CIUDAD2= "ROSARIO";
@@ -22,27 +26,31 @@
       alert(CIUDAD2);
       alert(CIUDAD3);
       alert(CIUDAD4);
-      alert(CIUDAD5);   */
+      alert(CIUDAD5);   
 
 
 
-/*  EJEMPLO 3
 
-      let nombre= "GONZALO";
+
+                             // EJEMPLO 3
+
+
+      let nombreMio= "GONZALO";
       let apellido= "GALVÁN";
       let numeroCarnet= 35812995;
       let direccion= "BARRIO INDEPENDENCIA";
       let sexo= "MASCULINO";
 
-      let carnet="\ NOMBRE: " + nombre +
+      let carnet="\ NOMBRE: " + nombreMio +
                   "\n APELLIDO: " + apellido +
                   "\n NUMERO DE CARNET: " + numeroCarnet +
                   "\n DIRECCION: " + direccion +
                   "\n SEXO: " +sexo;
-                  alert(carnet);  */
+                  alert(carnet);  
       
 
-/*     EJEMPLO 4    REVISAR CONDICION
+                             //    EJEMPLO 4    REVISAR CONDICION
+
 
       alert("INGRESE 4 NOMBRES");
       let nombre1= prompt ("INGRESE PRIMER NOMBRE");
@@ -61,10 +69,14 @@
         
       }else{
         alert("LO SIENTO TE FALTO INGRESAR UN NOMBRE");
-      }   */
- 
+      }   
+
+      
+
+
+    
      
-/* EJEMPLO 5 
+                                 // EJEMPLO 5 
 
 
     let precio1= parseFloat(prompt("INGRESE UN MONTO DE DINERO."));
@@ -77,24 +89,34 @@
     let precio2Descuento20= precio2 - (precio2 * 0.2);
     let precio2Descuento30= precio2 - (precio2 * 0.3);
     alert( " CON DESCUENTO DEL 20% ES: " + precio2Descuento20);
-    alert( " CON DESCUENTO DEL 30% ES: " + precio2Descuento30);  */
+    alert( " CON DESCUENTO DEL 30% ES: " + precio2Descuento30);  
 
 
-    /* EJEMPLO 6
+
+
+
+                                 // EJEMPLO 6
 
 
     let nombre= "gonzalo"; 
-    let nombre1="GONZALO";
+    let nombreUno="GONZALO";
     let dato= prompt(" INGRESE ENTRE DOS NOMBRES: GONZALO, VALENTINA");
-    if ((nombre == dato) || (nombre1 == dato)){
-        alert("FUI YO");
-     } else { alert("NO FUI YO");
+    if ((nombre == dato) || (nombreUno == dato)){
+        alert("SOY YO, GONZALO");
+     } else if ( (dato == "VALENTINA") || (dato == "valentina") ) { 
+        
+        alert (" NO SOY YO, SOY VALENTINA ");
+     
             
-        }    */
+     }  else {
+             alert (" NOO INGRESASTE  LO INDICADO.");
+     };
 
 
+     
 
-     /* EJEMPLO 7
+
+                                 // EJEMPLO 7
 
 
     let ingreso= prompt( " INGRESE UNA TECLA ENTRE X, Y, Z"); 
@@ -102,11 +124,12 @@
     alert("INGRESASTE LA TECLA CORRECTA")
     } else {
         alert(" INGRESASTE LA INCORRECTA")
-    }; */
+    }; 
 
 
     
- /* EJEMPLO 8
+                                 // EJEMPLO 8
+
 
     let pedidoIngreso= prompt("Elige a un personaje con las opciones del 1 al 4");
     if( pedidoIngreso == 1){
@@ -117,11 +140,14 @@
         alert(" ELEGISTE A BART.");
     }else if(pedidoIngreso == 4){
     alert("ELEGISTE A LISA.");
-    }else{alert("NO SELECCIONASTE EL NUMERO INDICADO.")}; */
+    }else{alert("NO SELECCIONASTE EL NUMERO INDICADO.")}; 
 
 
-/*   EJEMPLO 9
+
+
+                                //   EJEMPLO 9
     
+
     let numeroIngresado= prompt("INGRESE UN NUMERO HASTA EL 150");
     if ((numeroIngresado <50)  && ( numeroIngresado != "")){
     alert(" PRESUPUESTO BAJO.");
@@ -132,11 +158,13 @@
     }else if (numeroIngresado == ""){
      alert("NO  INGRESASTE NINGUN VALOR");
     }else {  
-        alert("ERROR");} */
+        alert("ERROR");} 
 
 
 
-    /* EJEMPLO 10
+
+
+                               // EJEMPLO 10
 
 
     alert( "INGRESE 4 PRODUCTOS DE ALMACÉN");
@@ -149,7 +177,7 @@
                           "\n 2) " + producto2+
                           "\n 3) " + producto3+
                           "\n 4) " + producto4;
-     alert(todosProductos); }    */
+     alert(todosProductos); }    
      
 
 
